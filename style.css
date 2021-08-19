@@ -1,0 +1,480 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header styles starts here */
+header {
+  display: flex;
+  box-shadow: 0px 1px 10px black;
+  justify-content: center;
+  position: fixed;
+}
+
+/* Header container styles starts here */
+.head-container {
+  width: 100vw;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 0 10px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: white;
+}
+
+#headImage {
+  width: 250px;
+  height: auto;
+}
+
+#photoImage {
+  margin-top: 5px;
+  width: 60px;
+  height: auto;
+  border-top-right-radius: 20%;
+}
+/* End of header container styles */
+
+/* Menu and menu items styles */
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.menu-items a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border-top: solid 2px black;
+}
+
+.show-links {
+  height: 180px;
+}
+/* End of menu styles */
+/* Header styles ends here */
+
+/* Main content styles */
+.summary {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: gold;
+  animation-name: slide;
+  animation-duration: 1s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 50%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.summary img {
+  width: 40%;
+}
+
+#skills {
+  height: 0;
+  overflow: hidden;
+}
+
+.contact-float {
+  font-size: 30px;
+  position: fixed;
+  right: -5px;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: rgba(150, 25, 15, 0.5);
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.contact-float :hover {
+  font-size: 40px;
+  transition: font-size 500ms;
+}
+
+.main-content {
+  padding: 60px 10px 10px 10px;
+}
+
+.increase-padding {
+  padding-top: 250px;
+}
+
+.pro-obj h4 {
+  display: inline;
+  margin-right: 20px;
+}
+
+.para-pro {
+  height: 0;
+  overflow: hidden;
+  background: white;
+  transition: 500ms;
+}
+
+.para-obj {
+  height: 0;
+  overflow: hidden;
+  background: white;
+  transition: 500ms;
+}
+
+.show-para-pro {
+  height: 80px;
+}
+
+.main-content h2 {
+  color: blue;
+}
+
+.menu-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.menu-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-body p {
+  text-align: justify;
+}
+
+/* Education menu style */
+.edu-list-head {
+  margin-bottom: -15px;
+  color: hotpink;
+}
+
+.edu-list-span1 {
+  color: blue;
+}
+
+.edu-list-span2 {
+  color: blue;
+}
+
+.edu-list-span3 {
+  color: blue;
+}
+
+.show-para1 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.show-para2 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.show-para3 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.show-more1 {
+  height: 160px;
+}
+
+.show-more2 {
+  height: 310px;
+}
+
+.show-more3 {
+  height: 580px;
+}
+/* Education menu style ends here */
+
+/* Experience menu */
+.exp-list-head {
+  margin-bottom: -15px;
+  color: hotpink;
+}
+
+.exp-list-span1 {
+  color: blue;
+}
+
+.exp-list-span2 {
+  color: blue;
+}
+
+.exp-list-span3 {
+  color: blue;
+}
+
+.exp-list-span4 {
+  color: blue;
+}
+
+.exp-list-span5 {
+  color: blue;
+}
+
+.exp-list-span6 {
+  color: blue;
+}
+
+.exp-list-span7 {
+  color: blue;
+}
+
+.exp-show-para1 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.exp-show-para2 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.exp-show-para3 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.exp-show-para4 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.exp-show-para5 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.exp-show-para6 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.exp-show-para7 {
+  background: white;
+  height: 0;
+  overflow: hidden;
+  transition: height 500ms;
+}
+
+.exp-show-more1 {
+  height: 160px;
+}
+
+.exp-show-more2 {
+  height: 200px;
+}
+
+.exp-show-more3 {
+  height: 160px;
+}
+
+.exp-show-more4 {
+  height: 160px;
+}
+
+.exp-show-more5 {
+  height: 160px;
+}
+
+.exp-show-more6 {
+  height: 160px;
+}
+
+.exp-show-more7 {
+  height: 160px;
+}
+/* Experience menu style ends here */
+
+/* Reference styles */
+.my-ref {
+  list-style-type: none;
+}
+
+.my-ref h4 {
+  color: hotpink;
+}
+
+.my-ref ul {
+  list-style-type: none;
+}
+
+.my-ref span {
+  font-weight: bold;
+  color: blue;
+}
+/* References style ends here */
+
+/* Contact style */
+.contact-image {
+  width: 100%;
+}
+
+.contact-logo {
+  font-size: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fa-instagram-square {
+  color: mediumvioletred;
+}
+
+.fa-twitter {
+  color: deepskyblue;
+}
+
+.fa-envelope {
+  color: mediumvioletred;
+}
+
+.fa-whatsapp-square {
+  color: green;
+}
+
+.fa-phone {
+  color: skyblue;
+}
+
+.fa-github {
+  color: black;
+}
+/* contact style ends here */
+
+/* Footer Styles */
+footer {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  box-shadow: 0 -3px 10px black;
+  color: blue;
+  font-weight: bold;
+}
+
+.footer-images {
+  width: 50px;
+  height: auto;
+}
+
+#hngLogo {
+  height: 28px;
+}
+/* Footer style ends here */
+
+/* Desktop styles */
+@media screen and (min-width: 361px) {
+  .nav-bar {
+    display: none;
+  }
+  
+  .head-container {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .menu-items {
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .menu-items a {
+    border: none;
+    padding: 0 20px;
+  }
+  
+  .menu-body {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .summary h3 {
+    font-size: 50px;
+    margin-bottom: -15px;
+  }
+  
+  #skills {
+    height: auto;
+  }
+  
+  .menu-image {
+    width: 30%;
+  }
+  
+  #abCont {
+    width: 60%;
+  }
+  
+  #eduCont {
+    width: 60%;
+  }
+  
+  #expCont {
+    width: 60%;
+  }
+}
+/* End of desktop styles */
+
+/* Print Name styles */
+#name {
+  color: blue;
+  font-weight: bolder;
+}
+
+#showName {
+  display: block;
+  margin: 10px;
+}
