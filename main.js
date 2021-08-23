@@ -5,7 +5,7 @@ const getElement = (selector) => {
 }
 
 const link = getElement(".menu-items");
-const increase = getElement(".main-content");
+const increase = getElement(".summary-div");
 const openNav = getElement(".nav-bar");
 
 let navIcon = '&#9776';

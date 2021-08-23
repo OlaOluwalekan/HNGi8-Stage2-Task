@@ -124,9 +124,58 @@ header {
   padding: 2px 10px;
 }
 
-#skills {
-  height: 0;
-  overflow: hidden;
+.skills {
+  padding: 10px;
+}
+
+.skill-label {
+  color: blue;
+}
+
+.skill-bar {
+  width: 300px;
+  height: 15px;
+  background: skyblue;
+  border-radius: 10px;
+  border: solid 2px blue;
+}
+
+.skill-per {
+  height: 15px;
+  border-radius: 10px;
+  background: red;
+}
+
+#htmlSkill {
+  width: 270px;
+}
+
+#cssSkill {
+  width: 270px;
+}
+
+#jsSkill {
+  width: 230px;
+}
+
+#reactSkill {
+  width: 90px;
+}
+
+#msSkill {
+  width: 290px;
+}
+
+#javaSkill {
+  width: 90px;
+}
+
+#androidSkill {
+  width: 120px;
+}
+
+#stSkill {
+  width: 250px;
 }
 
 .contact-float {
@@ -149,7 +198,7 @@ header {
 }
 
 .main-content {
-  padding: 60px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 .increase-padding {
