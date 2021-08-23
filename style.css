@@ -128,6 +128,11 @@ header {
   padding: 10px;
 }
 
+.side-bar h4 {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .skill-label {
   color: blue;
 }
@@ -143,7 +148,7 @@ header {
 .skill-per {
   height: 15px;
   border-radius: 10px;
-  background: red;
+  background: hotpink;
 }
 
 #htmlSkill {
