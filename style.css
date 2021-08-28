@@ -183,6 +183,48 @@ header {
   width: 250px;
 }
 
+#gitSkill {
+  width: 200px;
+}
+
+.hobbies {
+  padding: 10px;
+}
+
+.hobby-label {
+  color: blue;
+}
+
+.hobby-bar {
+  width: 300px;
+  height: 15px;
+  background: skyblue;
+  border-radius: 10px;
+  border: solid 2px blue;
+}
+
+.hobby-per {
+  height: 15px;
+  border-radius: 10px;
+  background: hotpink;
+}
+
+#codeHobby {
+  width: 270px;
+}
+
+#readHobby {
+  width: 180px;
+}
+
+#musicHobby {
+  width: 200px;
+}
+
+#gameHobby {
+  width: 120px;
+}
+
 .contact-float {
   font-size: 30px;
   position: fixed;
@@ -526,6 +568,12 @@ footer {
   .summary h3 {
     font-size: 50px;
     margin-bottom: -15px;
+  }
+  
+  .side-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
   
   #skills {
